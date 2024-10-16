@@ -15,14 +15,20 @@ body {
   color: white;
   background-size: auto auto;
 }
-
+header {
+  display: flex;
+}
+.logo {
+  margin-left: 50px;
+  margin-top: 30px;
+}
 h1 {
   color: transparent;
 }
 h2 {
   text-align: center;
   font-size: 46px;
-  margin: 100px auto;
+  margin: 0 auto 100px;
 }
 .about {
   text-align: center;
@@ -49,6 +55,9 @@ a {
   text-decoration: none;
   color: white;
 }
+h5 {
+  font-size: 24px;
+}
 .adress-link {
   font-size: 24px;
   font-style: normal;
@@ -71,6 +80,11 @@ a {
   body {
     background-image: url(assets/images/WebseiteVisitenkarte\ mobil.jpg);
     background-size: auto auto;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
   }
   h2 {
     font-size: 36px;
