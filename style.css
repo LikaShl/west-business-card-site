@@ -34,26 +34,25 @@ h2 {
 .about {
   text-align: center;
   font-size: 32px;
-  margin-bottom: 100px;
+  font-weight: 600;
+  margin-bottom: 90px;
   color: #333333;
 }
 .container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 65%;
 }
 .opening-hours {
   display: flex;
   justify-content: center;
   font-size: 24px;
-
 }
 
 address {
   text-align: center;
-  padding-top: 100px;
-
+  padding-top: 70px;
 }
 i {
   padding-right: 10px;
@@ -65,7 +64,6 @@ a {
 .adress-link {
   font-size: 24px;
   font-style: normal;
-
 }
 .contacts {
   display: flex;
@@ -73,14 +71,12 @@ a {
   gap: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 .social-links {
   display: flex;
   justify-content: center;
   gap: 100px;
   margin-bottom: 10px;
-
 }
 .social-links i {
   font-size: 36px;
