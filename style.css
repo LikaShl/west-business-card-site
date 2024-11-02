@@ -13,10 +13,10 @@ body {
   min-width: 360px;
   background-color: black;
   color: white;
-  background-size: auto auto;
 }
 header {
   display: flex;
+  justify-content: space-between;
 }
 .logo {
   margin-left: 50px;
@@ -24,6 +24,21 @@ header {
 }
 h1 {
   color: transparent;
+}
+.button {
+  margin-top: 100px;
+  margin-right: 150px;
+  height: 100px;
+  width: 200px;
+  color: white;
+  background-color: #333333;
+  display: inline-block;
+  padding: 20px 15px;
+  border: 1px solid #333333;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
 }
 h2 {
   text-align: center;
@@ -81,6 +96,31 @@ a {
 .social-links i {
   font-size: 36px;
 }
+.autorenabend {
+  margin-top: 20px;
+}
+.videocontainer {
+  margin: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+article {
+  width: 50%;
+  font-size: 24px;
+  padding: 20px 30px;
+}
+video {
+  width: 50%;
+  height: 720px;
+}
+
+.back {
+  text-align: right;
+  display: block;
+  margin-right: 20px;
+}
+
 @media (max-width: 760px) {
   body {
     background-image: url(assets/images/WebseiteVisitenkarte\ mobil.jpg);
@@ -110,5 +150,9 @@ a {
   }
   .contacts {
     font-size: 14px;
+  }
+  article,
+  video {
+    width: 100%;
   }
 }
