@@ -24,6 +24,7 @@ header {
 }
 h1 {
   color: transparent;
+  font-size: xx-small;
 }
 .button {
   margin-top: 100px;
@@ -128,8 +129,27 @@ video {
   }
   .logo {
     width: 100px;
+    height: 100px;
     margin-left: 20px;
     margin-top: 10px;
+  }
+  h1 {
+    visibility: hidden;
+  }
+  .button {
+    margin-top: 20px;
+    margin-right: 50px;
+    height: 80px;
+    width: 200px;
+    color: white;
+    background-color: #333333;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #333333;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
   }
   h2 {
     font-size: 36px;
@@ -151,8 +171,17 @@ video {
   .contacts {
     font-size: 14px;
   }
+  .autorenabend {
+    margin-bottom: 0;
+  }
+  .videocontainer {
+    margin-top: 0;
+  }
   article,
   video {
     width: 100%;
+  }
+  article {
+    font-size: 20px;
   }
 }
